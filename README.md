@@ -4,4 +4,4 @@
 
 *git fstart \<feature_name\>*
 
-..* This does something
+  * This does something
