@@ -2,4 +2,4 @@
 
 ## Git commands
 
-*git start <feature_name>*
+*git start \<feature_name\>*
