@@ -2,5 +2,6 @@
 
 ## Git commands
 
-*git start \<feature_name\>*
-... HI
+*git fstart \<feature_name\>*
+
+   This does something
