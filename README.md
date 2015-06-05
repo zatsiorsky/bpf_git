@@ -7,7 +7,7 @@ Inspiration from [https://www.acquia.com/blog/pragmatic-guide-branch-feature-git
 ### Set up shared rerere cache
 1. Navigate to **cmd**. 
 2. Right-click and select "Run as Administrator."
-3. Run the command `mkdir \D <path to .git subdirectory of repo>/rr-cache <path to shared rerere cache>`
+3. Run the command `mklink \D <path to .git subdirectory of repo>/rr-cache <path to shared rerere cache>`
 	- For example, after navigating to the .git subdirectory, I ran the command `mkdir \D rr-cache \\corpnet\cloud\WAL.Live\LIOX.DEV.VSI\Rerere`
 4. In the terminal, edit your git configuration with the commands
 `git config --global rerere.enabled true` and `git config --global rerere.autoupdate true`
