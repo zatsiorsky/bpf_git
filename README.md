@@ -1,5 +1,6 @@
 # Implementing BPF in Git with Python
-    
+
+Inspiration from [https://www.acquia.com/blog/pragmatic-guide-branch-feature-git-branching-strategy](https://www.acquia.com/blog/pragmatic-guide-branch-feature-git-branching-strategy).
 
 ## Setup
 
@@ -53,7 +54,7 @@ Elements from [https://www.acquia.com/blog/pragmatic-guide-branch-feature-git-br
 	git imerge feature1 // Gets latest integration branch and merges in my feature
 	// Resolve any conflicts that arise
 	git ipush
-	// Hack hack hack and repeat merges to ntegration
+	// Hack hack hack and repeat merges to integration
 	// Feature is ready for code review, submit pull request, get feedback etc.
 	// Now my feature is ready for QA
 	// Make sure desired features are indicated in qafeatures.txt
