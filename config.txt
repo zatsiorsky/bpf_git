@@ -1,0 +1,6 @@
+[alias]
+	fstart = "!f(){ git checkout master && git pull origin master && git checkout -b \"$1\"; };f"
+	newqa = "!f(){ python /C/Scripts/newqa.py; };f"
+	imerge = "!f(){ git checkout integration && git pull origin integration && git merge --no-ff \"$1\"; };f"
+	ipush = "!f(){ git push origin integration; };f"
+	qapush = "!f(){ git push --force origin QA; };f"
